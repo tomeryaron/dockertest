@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('ONE') {
             steps {
-                sh 'python '
+                sh 'python DockerAndJenkins.py'
             }
         }
     }
